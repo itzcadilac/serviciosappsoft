@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home1/novoex/public_html/app/
+    - export DEPLOYPATH=/home1/novoex/public_html/app/servicios
     - /bin/rsync -av servicios/ $DEPLOYPATH
